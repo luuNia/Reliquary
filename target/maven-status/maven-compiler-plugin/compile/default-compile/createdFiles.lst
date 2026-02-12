@@ -1,0 +1,17 @@
+org\octave\chestobserver\util\TimeFormatter.class
+org\octave\chestobserver\storage\ActionKey.class
+org\octave\chestobserver\storage\ActionRecord.class
+org\octave\chestobserver\listener\InventoryCloseListener.class
+org\octave\chestobserver\storage\ActionRecord$ActionType.class
+org\octave\chestobserver\inspect\InspectSessionManager.class
+org\octave\chestobserver\storage\AccessRecord.class
+org\octave\chestobserver\util\BlockKey.class
+org\octave\chestobserver\ChestObserverPlugin.class
+org\octave\chestobserver\listener\ContainerAccessListener.class
+org\octave\chestobserver\storage\SnapshotStorage.class
+org\octave\chestobserver\listener\InspectInteractListener.class
+org\octave\chestobserver\storage\InventorySnapshot.class
+org\octave\chestobserver\util\GradientText.class
+org\octave\chestobserver\service\AccessService.class
+org\octave\chestobserver\storage\MemoryStorage.class
+org\octave\chestobserver\command\InspectCommand.class

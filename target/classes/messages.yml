@@ -1,0 +1,48 @@
+prefix: "<gradient:#c77dff:#9d4edd><bold>CHATUX</bold></gradient> <dark_gray>»</dark_gray> "
+
+# Шаблоны Панелей (UI)
+panels:
+  # 1. Clear Chat UI
+  clear-chat:
+    - "<br>" # Отступ
+    - "<gray>          <gradient:#c77dff:#9d4edd><bold>CLEAR CHAT MANAGER</bold></gradient>"
+    - "<dark_gray>     <st>                                    </st>"
+    - "<gray>     Action: <white>Wipe Global Chat History"
+    - "<gray>     Target: <white>All Players"
+    - ""
+    - "<red>     ⚠ This action cannot be undone."
+    - ""
+    - "     <hover:show_text:'<gray>Click to confirm'><click:run_command:'/clearchat confirm'><#ff5555><b>[ CONFIRM WIPE ]</b></#ff5555></click></hover>"
+    - "<br>"
+
+  # 2. Mute UI
+  mute-panel:
+    - "<br>"
+    - "<gray>          <gradient:#ff5555:#ff0000><bold>PLAYER MODERATION</bold></gradient>"
+    - "<dark_gray>     <st>                                    </st>"
+    - "<gray>     Target: <red><bold>{player}</bold></red>"
+    - "<gray>     Status: <white>{status}</white>"
+    - ""
+    - "     <hover:show_text:'<gray>Mute for 1 hour'><click:run_command:'/mute {player} 1h'><#ffaa00>[ 1 Hour ]</#ffaa00></click></hover>  <hover:show_text:'<gray>Mute Perm'><click:run_command:'/mute {player} perm'><#ff5555>[ Permanent ]</#ff5555></click></hover>  <hover:show_text:'<gray>Unmute'><click:run_command:'/mute {player} unmute'><#55ff55>[ Unmute ]</#55ff55></click></hover>"
+    - "<br>"
+
+  # 3. SlowChat UI
+  slow-chat:
+    - "<br>"
+    - "<gray>          <gradient:#55ffff:#00aaaa><bold>SLOW CHAT CONTROL</bold></gradient>"
+    - "<dark_gray>     <st>                                    </st>"
+    - "<gray>     Current Delay: <aqua>{delay}s</aqua>"
+    - ""
+    - "     <hover:show_text:'<gray>Disable Slowmode'><click:run_command:'/slowchat 0'><#55ff55>[ OFF ]</#55ff55></click></hover>   <hover:show_text:'<gray>Set 3s'><click:run_command:'/slowchat 3'><#ffaa00>[ 3s ]</#ffaa00></click></hover>   <hover:show_text:'<gray>Set 10s'><click:run_command:'/slowchat 10'><#ff5555>[ 10s ]</#ff5555></click></hover>"
+    - "<br>"
+
+# Системные сообщения (Action feedback)
+messages:
+  no-permission: "<red>✖ Access denied."
+  reload: "<green>✔ Configuration reloaded."
+  chat-cleared: "<gray>The chat history was cleared by <light_purple>{player}</light_purple>."
+  mute-success: "<green>✔ Player <red>{player}</red> muted for <yellow>{duration}</yellow>."
+  unmute-success: "<green>✔ Player <white>{player}</white> has been unmuted."
+  slow-chat-set: "<gray>SlowChat delay set to <aqua>{time}s</aqua>."
+  muted-notify: "<red>✖ You are muted. Expires in: <yellow>{time}</yellow>"
+  slow-chat-notify: "<red>✖ Slowmode active. Wait <yellow>{time}s</yellow>."

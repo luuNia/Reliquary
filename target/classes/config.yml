@@ -1,0 +1,8 @@
+track:
+  chest: true
+  barrel: true
+  shulker: true
+  hopper: false
+
+history:
+  max-records: 10

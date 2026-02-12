@@ -1,0 +1,16 @@
+name: Reliquary
+version: 1.0.0
+main: org.octave.chestobserver.ChestObserverPlugin
+api-version: 1.21
+author: luuNia
+commands:
+  co:
+    description: Reliquary admin command
+    usage: /co inspect
+permissions:
+  chestobserver.inspect:
+    default: op
+  chestobserver.log:
+    default: true
+  chestobserver.admin:
+    default: op
