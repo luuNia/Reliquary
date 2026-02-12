@@ -7,7 +7,7 @@ It allows admins to inspect container activity and see who placed or removed ite
 ## Command
 /co inspect
 
-![Inspect in action](1b63262529b4f6a2eda6a45227da8f311ab7d69b(1).png)
+![Inspect in action](main/ddd.png)
 
 ## Built With
 - Java
