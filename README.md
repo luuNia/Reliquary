@@ -7,6 +7,8 @@ It allows admins to inspect container activity and see who placed or removed ite
 ## Command
 /co inspect
 
+![Inspect in action](path/to/image.png)
+
 ## Built With
 - Java
 - Paper / Purpur API
