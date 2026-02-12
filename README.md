@@ -8,6 +8,7 @@ It allows admins to inspect container activity and see who placed or removed ite
 
 ## Command
 /co inspect
+
 RMB on any chest to show information.
 
 ![Inspect in action](ddd.png)
